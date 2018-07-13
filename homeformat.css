@@ -1,55 +1,72 @@
 
-.tablink {
-    background-color: #90A0A0;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 25px;
-    width: 33.33%;
-    font-family: breamcatcher;
+
+ul {
+	text-align:center;
+	position:fixed;
+	width:100%;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	font-family: breamcatcher;
+	font-size: 35px;
+
+}
+li{
+
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+	text-align: center;
+  width: 33.33%;
+  position: relative;top: 500px;
+}
+li a:link, li a:visited{
+
+	width: 100%;
+	padding: 14px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	position:relative;top:100px;
+}
+
+li a:hover {
+	background-color: #E3E5F4;
+	color: #000;
+}
+
+li a:active {
+	background-color: #566398;
+	color: #000;
+}
+
+body{
+	background-image: url("images/710.png");
+	background-size: cover;
+	position:fixed;
+  background-repeat: no-repeat;
+	background-position: bottom: 1000px;
 
 }
 
-.tablink:hover {
-    background-color: #D9DED8;
+
+@font-face {
+    font-family: steelworks_vintage;
+    src: url(fonts/fontkit/steelworks_vintage_demo-webfont.woff);
 }
 
-/* Style the tab content */
-.tabcontent {
-    color: #FAFCF7;
-    display: none;
-    padding: 50px;
-    text-align:center;
-    height:130px;
-    font-size: 80px;
-    background-image: url("images/trees.png");
-    background-position: center;
-    background-size: cover;
+@font-face {
+	font-family: made_cannes;
+	src: url(fonts/fontkit/made_cannes.woff);
+}
 
-    @font-face{
-    	font-family:breamcatcher;
-    	src:url(font/breamcatcher-webfont.woff)
-    }
+@font-face{
+	font-family:breamcatcher;
+	src:url(fonts/fontkit/breamcatcher-webfont.woff)
+}
 
-    @font-face{
-    	font-family:fiftyfive;
-    	src:url(font/fifty_five.woff)
-    }
-
-    @font-face{
-    	font-family:hermione;
-    	src:url(font/hermione.woff)
-    }
-
-    @font-face{
-    	font-family:lapiedrita;
-    	src:url(font/lapiedrita.woff)
-    }
-    #homebutton{
-    	float:left;
-    	position:relative;left:110px;
-    	position:relative;top:355px;
-    }
+@font-face{
+	font-family:red_moon;
+	src: url(fonts/fontkit/red_moon_rising.woff)
+}
